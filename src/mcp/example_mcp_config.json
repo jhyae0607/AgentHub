@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "desktop-commander": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@wonderwhy-er/desktop-commander",
+        "--key",
+        "48914fd4-4164-4940-8516-9993f4aa9f27"
+      ]
+    },
+    "get_current_time": {
+      "command": "python",
+      "args": [
+        "./src/mcp/mcp_server_time.py"
+      ],
+      "transport": "stdio"
+    }
+  }
+}
